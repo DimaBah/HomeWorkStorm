@@ -1,13 +1,13 @@
 package HW4.Degrees;
 
-public class FahrenheitConverter implements iConverter{
+public class FahrenheitConverter implements IConverter {
     @Override
     public double convert(double grades){
-             return (grades * 9 / 5) + 32;
+        return (grades * 9 / 5) + 32;
     }
-    @Override
-    public double convert(double grades, String fromDeg) {
-        System.out.println("Bad conversion :( ");
-        return 0;
-    }
+    //   @Override
+//    public void convert(double grades, String fromDeg) {
+//        System.out.println("Bad conversion :( ");
+//        return 0;
+//    }
 }

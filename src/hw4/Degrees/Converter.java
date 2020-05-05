@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Converter {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Conversion from or to Celsium, f or t? ");
+        System.out.println("Conversion from or to Celsius, f or t? ");
         String fromToCel = scan.next();
         if ("f".equals(fromToCel)) {
             boolean toExit = false;

@@ -2,13 +2,13 @@ package HW4.Shapes;
 
 public class Cylinder extends SolidOfRevolution{
     double height;
-    public Cylinder(double r, double h) {
-        this.radius = r;
-        this.height = h;
-        this.volume = this.calcVolume(r, h);
+
+    public Cylinder(double radius, double height) {
+        super(radius);
+        this.height = height;
     }
     @Override
-    public double calcVolume(double r, double h) {
-        return Math.PI * r * h / 3;
+    public double calcVolume() {
+        return Math.PI * radius * height / 3;
     }
 }

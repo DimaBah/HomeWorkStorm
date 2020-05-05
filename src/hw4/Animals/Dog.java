@@ -1,6 +1,6 @@
 package HW4.Animals;
 
-public class Dog extends AllEating implements iCanRun, iCanEat{
+public class Dog extends AllEating implements ICanRun, ICanEat {
     String nickname;
 
     public String getNickname() {

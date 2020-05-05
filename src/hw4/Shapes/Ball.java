@@ -1,12 +1,11 @@
 package HW4.Shapes;
 
 public class Ball extends SolidOfRevolution{
-    public Ball(double r) {
-        this.radius = r;
-        this.volume = this.calcVolume(r);
+    public Ball(double radius) {
+        super(radius);
     }
     @Override
-    public double calcVolume(double r) {
-        return Math.PI * r * r * 4 / 3;
+    public double calcVolume() {
+        return Math.PI * radius * radius * 4 / 3;
     }
 }

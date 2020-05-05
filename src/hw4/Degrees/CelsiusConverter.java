@@ -1,7 +1,10 @@
 package HW4.Degrees;
 
-public class CelsiusConverter implements iConverter{
+public class CelsiusConverter implements IConverter {
     @Override
+    public double convert(double value){
+        return 0;
+    }
     public double convert(double grades, String fromDeg) {
         if ("f".equals(fromDeg)){
             return (grades - 32) * 5 /9;
@@ -11,11 +14,6 @@ public class CelsiusConverter implements iConverter{
         }
         else
             System.out.println("Bad parametr");
-            return 0;
-    }
-    @Override
-    public double convert(double grades) {
-        System.out.println("Bad conversion");
         return 0;
     }
 }

@@ -1,6 +1,6 @@
 package HW4.Animals;
 
-public class Cat extends CatsFamily implements iCanRun, iCanBeEaten, iCanEat{
+public class Cat extends CatsFamily implements ICanRun, ICanBeEaten, ICanEat {
     String nickname;
 
     public String getNickname() {

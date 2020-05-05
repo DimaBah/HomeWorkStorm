@@ -1,5 +1,5 @@
 package HW4.Animals;
 
-public interface iCanBeEaten {
+public interface ICanBeEaten {
     void canBeEaten();
 }

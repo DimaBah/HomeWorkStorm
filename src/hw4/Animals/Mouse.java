@@ -1,6 +1,6 @@
 package HW4.Animals;
 
-public class Mouse extends PlantsEating implements iCanRun, iCanBeEaten{
+public class Mouse extends PlantsEating implements ICanRun, ICanBeEaten {
     boolean isPet;
 
     public boolean isPet() {

@@ -1,5 +1,5 @@
 package HW4.Animals;
 
-public interface iCanRun {
+public interface ICanRun {
     void run();
 }
