@@ -8,8 +8,8 @@ public class Generics <T> {
     public Generics(T[] anyTypeArray) {
         this.anyTypeArray = anyTypeArray;
     }
-    public <T> T getElement(int index){
-        return (T)anyTypeArray[index];
+    public  T getElement(int index){
+        return anyTypeArray[index];
     }
     @Override
     public String toString() {
