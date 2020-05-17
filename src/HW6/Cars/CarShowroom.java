@@ -13,7 +13,7 @@ public class CarShowroom {
     void addACar (String[] newCar) throws EmptyDataException{
         boolean noEmptyFields = true;
         for (String item : newCar){
-            noEmptyFields = noEmptyFields & !item.equals("");
+            noEmptyFields = noEmptyFields && !item.equals("");
         }
         if (noEmptyFields) {
             id++;
