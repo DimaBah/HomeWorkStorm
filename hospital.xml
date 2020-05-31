@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hospital>
+    <staff>
+        <name>Joe</name>
+        <surname>Johnson</surname>
+        <position>Doctor</position>
+        <division>Administration</division>
+        <experience>18</experience>
+    </staff>
+
+    <staff>
+        <name>Mary</name>
+        <surname>Peterson</surname>
+        <position>Doctor</position>
+        <division>Diagnostics</division>
+        <experience>17</experience>
+    </staff>
+
+    <staff>
+    <name>Stella</name>
+    <surname>Evanson</surname>
+    <position>Nurse</position>
+    <division>Diagnostics</division>
+    <experience>5</experience>
+    </staff>
+
+    <staff>
+    <name>Kate</name>
+    <surname>Richardson</surname>
+    <position>Nurse</position>
+    <division>First aid</division>
+    <experience>3</experience>
+    </staff>
+
+    <staff>
+    <name>Yun</name>
+    <surname>In</surname>
+    <position>Nurse</position>
+    <division>Therapy</division>
+    <experience>2</experience>
+    </staff>
+</hospital>
